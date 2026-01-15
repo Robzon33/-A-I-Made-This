@@ -5384,8 +5384,7 @@ MonoBehaviour:
   LoadingScreenUI: {fileID: 1066444548}
   progressBar: {fileID: 890717901}
   loadingText: {fileID: 865597315}
-  loadingTime: 4
-  stepDuration: 1.5
+  stepDuration: 3
 --- !u!1 &1681151700
 GameObject:
   m_ObjectHideFlags: 0

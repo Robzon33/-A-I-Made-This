@@ -106,7 +106,7 @@ public class AudioManager : MonoBehaviour
 
     private IEnumerator FadeIn(AudioSource audioSource)
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(8f);
 
         audioSource.volume = 0f;
         float time = 0f;

@@ -8,7 +8,6 @@ public class LoadingScreen : MonoBehaviour
     public GameObject LoadingScreenUI;
     public Slider progressBar;
     public TMP_Text loadingText;
-    public float loadingTime = 4f;
     public float stepDuration = 1.5f;
 
     public void ShowLoadingScreen()
@@ -23,21 +22,21 @@ public class LoadingScreen : MonoBehaviour
 
         // Step 1
         yield return StartCoroutine(LoadingStep(
-            "Calling A.I. API",
+            "Calling A.I. API ...",
             0f,
             0.33f
         ));
 
         // Step 2
         yield return StartCoroutine(LoadingStep(
-            "Generating music",
+            "Generating music ...",
             0.33f,
             0.66f
         ));
 
         // Step 3
         yield return StartCoroutine(LoadingStep(
-            "Loading data",
+            "Loading data ...",
             0.66f,
             1f
         ));
@@ -55,7 +54,9 @@ public class LoadingScreen : MonoBehaviour
         float elapsed = 0f;
         progressBar.value = startValue;
 
-        while (elapsed < stepDuration)
+        float duration = stepDuration + Random.Range(-1f, 1f);
+
+        while (elapsed < duration)
         {
             elapsed += Time.deltaTime;
             progressBar.value = Mathf.Lerp(startValue, endValue, elapsed / stepDuration);
