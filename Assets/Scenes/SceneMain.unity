@@ -697,10 +697,10 @@ MonoBehaviour:
   sourceB: {fileID: 826870336}
   newClipA1: {fileID: 8300000, guid: 3490052d406f3d74ebf1c01a06f45d2b, type: 3}
   newClipB1: {fileID: 8300000, guid: 3a13f586d75b82146a8fd1a2ec209ab0, type: 3}
-  newClipA2: {fileID: 8300000, guid: 9bdb8bfd7f81cac42b0b281bc517545b, type: 3}
-  newClipB2: {fileID: 8300000, guid: 85e6f2e221bf7f54fb66c70e6f65427f, type: 3}
+  newClipA2: {fileID: 8300000, guid: 42922f3971590ad40b3cd06116f55d4a, type: 3}
+  newClipB2: {fileID: 8300000, guid: 9bdb8bfd7f81cac42b0b281bc517545b, type: 3}
   newClipA3: {fileID: 8300000, guid: 7f3218e27e4e2744cbbd5e26cf014b72, type: 3}
-  newClipB3: {fileID: 8300000, guid: dfe6a131dc7523c45a0ae3653cd4419e, type: 3}
+  newClipB3: {fileID: 8300000, guid: 67ad28313458d0347b618e00209ba5d9, type: 3}
   fadeDuration: 1
   targetVolume: 1
 --- !u!4 &231940141
@@ -1291,6 +1291,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1586272494}
+        m_TargetAssemblyTypeName: LoadingScreen, Assembly-CSharp
+        m_MethodName: ShowLoadingScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 231940140}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: OnButton3Clicked
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4845,8 +4869,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControllerButtonHandler
   prompt1Button: {fileID: 1138561322}
-  prompt2Button: {fileID: 0}
-  prompt3Button: {fileID: 0}
+  prompt2Button: {fileID: 2095797738}
+  prompt3Button: {fileID: 479621111}
   exitButton: {fileID: 399911232}
 --- !u!114 &1586272494
 MonoBehaviour:
@@ -5605,6 +5629,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1586272494}
+        m_TargetAssemblyTypeName: LoadingScreen, Assembly-CSharp
+        m_MethodName: ShowLoadingScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 231940140}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: OnButton2Clicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &2095797739
 MonoBehaviour:
