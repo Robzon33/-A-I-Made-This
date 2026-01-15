@@ -27,5 +27,15 @@ public class ControllerButtonHandler : MonoBehaviour
         {
             prompt1Button.onClick.Invoke();
         }
+
+        if (gamepad.yButton.wasPressedThisFrame)
+        {
+            prompt2Button.onClick.Invoke();
+        }
+
+        if (gamepad.bButton.wasPressedThisFrame)
+        {
+            prompt3Button.onClick.Invoke();
+        }
     }
 }
