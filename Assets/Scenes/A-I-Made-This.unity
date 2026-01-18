@@ -696,11 +696,11 @@ MonoBehaviour:
   sourceA: {fileID: 877693124}
   sourceB: {fileID: 826870336}
   newClipA1: {fileID: 8300000, guid: 3490052d406f3d74ebf1c01a06f45d2b, type: 3}
-  newClipB1: {fileID: 8300000, guid: 3a13f586d75b82146a8fd1a2ec209ab0, type: 3}
-  newClipA2: {fileID: 8300000, guid: 42922f3971590ad40b3cd06116f55d4a, type: 3}
+  newClipB1: {fileID: 8300000, guid: 7366c7f663d2a60438ced18951007f35, type: 3}
+  newClipA2: {fileID: 8300000, guid: 6e85946ec4071d94da8204400a0da644, type: 3}
   newClipB2: {fileID: 8300000, guid: 9bdb8bfd7f81cac42b0b281bc517545b, type: 3}
-  newClipA3: {fileID: 8300000, guid: 7f3218e27e4e2744cbbd5e26cf014b72, type: 3}
-  newClipB3: {fileID: 8300000, guid: 67ad28313458d0347b618e00209ba5d9, type: 3}
+  newClipA3: {fileID: 8300000, guid: af9e3a140ff12ec4cb7dc387b25e04ea, type: 3}
+  newClipB3: {fileID: 8300000, guid: 37aba8f3600934a4bb01b3d682e2aeed, type: 3}
   fadeDuration: 1
   targetVolume: 1
 --- !u!4 &231940141
@@ -2635,7 +2635,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 78ba68af41c3c6c45a95e8c01c7c555f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.178
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3096,7 +3096,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 78ba68af41c3c6c45a95e8c01c7c555f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.178
   m_Pitch: 1
   Loop: 1
   Mute: 0
