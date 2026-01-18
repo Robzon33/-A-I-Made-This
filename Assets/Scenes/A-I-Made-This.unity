@@ -2232,7 +2232,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4701708637601702890, guid: 91775fa813c644de09f44864ab032b50, type: 3}
       propertyPath: autoExitAfter
-      value: 20
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6884674073251687877, guid: 91775fa813c644de09f44864ab032b50, type: 3}
       propertyPath: m_LocalPosition.x
